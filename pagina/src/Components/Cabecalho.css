@@ -1,0 +1,15 @@
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    padding-top: 20px;
+    font-family: sans-serif;
+    color: #4AA5B4;
+}
+
+header{
+    text-align: center;
+    background-color: #3A3636;
+}

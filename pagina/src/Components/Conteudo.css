@@ -1,0 +1,21 @@
+
+section {
+    position: absolute; /*sobrepôe  ao que tem na tela*/
+    left: 25vw;
+}
+
+p {
+    text-align: left;
+    margin-right: 20vw;
+}
+
+h3 {
+    text-align:inherit;
+    text-transform: uppercase;
+    font-size: 32px;
+}
+
+
+h4{ 
+    font-size: 20px;
+}

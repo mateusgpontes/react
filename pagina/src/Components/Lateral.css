@@ -1,0 +1,40 @@
+#lateral {
+    position: fixed;
+    left: 0;
+    background-color:#4AA5B4;
+    width: 25vw;        /*25% do viewport*/
+    height: 100vh;      /*100% do viewport*/
+    transition: 0.3s;
+    transform: translate(-18vw);
+}
+
+button {
+    position: absolute;
+    right: 0;
+    width: 30vw;
+    height: 5vh;
+    background-color: #F6F1F0;
+    color:#DF8633;
+    font-weight: bolder;
+    text-transform: uppercase;
+    border: px solid #DF8633;
+    text-align: right;
+}
+
+#lateral.visivel {
+    transform: translateX(0);
+}
+
+h2 {
+    padding-top: 25px; 
+    text-align: center;
+    font-size: 20px;
+}
+ul {
+    list-style: none;
+    padding:10px; 
+}
+
+ul li {
+    padding-top: 8px;
+}
